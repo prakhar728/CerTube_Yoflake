@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { collection, addDoc } = require("firebase/firestore");
 const { userCollection } = require('../Firebase');
 
-router.get('/', async (req, res) => {
+router.post('/', async (req, res) => {
   console.log('The user id is ', req.body.uid);
 
   //    const userRef = await userCollection.where('uid','==',req.body.uid).get();

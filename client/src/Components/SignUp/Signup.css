@@ -68,6 +68,9 @@
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
 }
+.signUpToLogin{
+    margin: 8px 0;
+}
 .vectorblob{
    position: relative;
    bottom:80px;

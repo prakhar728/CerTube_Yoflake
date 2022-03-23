@@ -1,0 +1,75 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    background-color: black;
+}
+.searchWrapper{
+    background-color: #FFF1F4  ;
+    max-width: 450px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+.SearchHeader{
+    font-size:24px;
+    font-weight: bold;
+    height:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchText{
+    font-size:18px;
+    height:18%;
+
+}
+.inputFieldContainerPlaylist{
+display:flex ;
+display: 100%;
+background-color: white;
+border-radius: 30px;
+}
+.inputFieldContainerPlaylist input{
+    border-radius: 30px;
+    width:80%;
+    border:0;
+    padding-left: 6px;
+}
+.inputFieldContainerPlaylist input:focus{
+    outline:0;
+}
+.inputFieldContainerPlaylist button{
+    border-radius: 30px;
+    font-size: 18px;
+    padding:10px;
+    background-color: #c903eca1;
+    border:0;
+}
+.searchResults{
+    height:40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.searchResult{
+    width:50%;
+    display: flex;
+    border:2px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.searchResult a{
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+}

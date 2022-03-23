@@ -7,6 +7,13 @@
     margin:0;
     background-color: black;
 }
+.inputHolderName{
+    width: 75%;
+    
+}
+.iconUsed{
+    font-size: 15px;
+}
 .dashboardWrapper{
     background-color: #FFF1F4  ;
     max-width: 450px;
@@ -14,7 +21,96 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
+}
+.textDashboard{
+        font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.pfp{
+    background-image: url("../../Assets/Pfp.jpeg");
+    width:112px;
+    height:112px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+.pfpnameHolder{
+    border:0;
+    font-size: 24px;
+    background-color:#F9D9F5 ;
+    width: 94%;
+    padding:4px 4px;
+
+}
+.pfpnameHolder:focus{
+    outline: none;
+}
+.pfpEmailHolder{
+    border:0;
+    font-size: 26px;
+    width: 75%;
+    background-color:#F9D9F5;
+    padding:4px 2px;
+}
+.detailHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:18%;
+}
+.pfpIconHolder{
+    height:20%;
+}
+.certificateHolder{
+    width:100%;
+    height:47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e37bf54d;
+}
+.certificateHeader{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certificates{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    padding-left: 40px;
+    width: 100%;
+    font-size: 20px;
+}
+.certificate{
+    display: flex;
+}
+/* External Link */
+.linkContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.myPlaylistLink{
+    padding:10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
 }

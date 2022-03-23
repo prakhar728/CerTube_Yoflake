@@ -19,6 +19,9 @@ const Login = () => {
     }
     catch (err) { seterror('Failed to login'); }
   }
+  const navigateToSignUp = () =>{
+    navigate('/signup');
+  }
   return (
     <div className='signUpContainer'>
       <div className='signupWrapper'>
@@ -39,6 +42,7 @@ const Login = () => {
           <button id="signUpButton"
             onClick={handleSubmit}
           >Log In!</button>
+          <button id="loginButton" className='signUpToLogin' onClick={navigateToSignUp}>SignUpWithUs</button>
         </div>
       </form>
       <div className='vectorblob'><svg

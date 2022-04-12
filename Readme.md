@@ -1,3 +1,7 @@
+# NOTE
+
+This web-app was submited as a solution in a hackathon - ignite 4.0. [Here](https://devpost.com/software/certube) you can view the submission.
+
 # PROBLEM STATEMENT
 
 The problem statement we chose was the First one of the Product Development Track.
@@ -30,3 +34,4 @@ Youtube as we all know has become the source of learning for a large group of pe
 2. Run `npm i` to install the necessary dependencies
 3. Make a firebase.js file and add the credentials
 4. Run `npm start` to start nodemon.
+
